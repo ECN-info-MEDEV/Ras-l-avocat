@@ -9,8 +9,18 @@ package edu.centralenantes.dame;
  * @author T480
  */
 public class Pion {
-    public Pion(){
-        
+    public Point2D pos; //position du pion 
+    public String couleur;
+    
+    
+    /**
+     * 
+     * @param position
+     * @param clr 
+     */
+    public Pion(Point2D position, String clr){
+        pos = position;
+        couleur = clr;
     }
     public void deplace(String direction, Plateau p){
         
