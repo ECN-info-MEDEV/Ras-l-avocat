@@ -10,39 +10,11 @@ package edu.centralenantes.dame;
  */
 public class jeu {
 
-    int[][] Mat = new int[10][10];
-    int x;
+    Plateau Plat=new Plateau();
 
-    public void debutDuJeu() {
-        for (int j=0;j<10;j++){
-            for (int i=0;i<10;i++){
-                Mat[i][j]=0;
-            }
-        }
-
-        for (int j = 0; j < 5; j++) {
-            if (j % 2 == 0) {
-                x = 1;
-            } else {
-                x = 0;
-            }
-            for (int i = x; i < 10; i += 2) {
-                Mat[j][i] = 1;
-            }
-        }
-        for (int j = 6; j < 10; j++) {
-            if (j % 2 == 0) {
-                x = 1;
-            } else {
-                x = 0;
-            }
-            for (int i = x; i < 10; i += 2) {
-                Mat[j][i] = -11;
-            }
-        }
-
-    }
-    public void prise(){
+    public void tourDuJeu() {
         
+
     }
+   
 }
