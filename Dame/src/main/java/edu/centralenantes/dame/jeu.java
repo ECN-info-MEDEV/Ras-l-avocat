@@ -12,7 +12,7 @@ public class jeu {
 
     Plateau Plat=new Plateau();
 
-    public void tourDuJeu() {
+    public void tourDuJeu( ) {
         
 
     }
