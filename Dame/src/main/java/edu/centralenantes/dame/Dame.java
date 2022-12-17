@@ -11,11 +11,9 @@ package edu.centralenantes.dame;
  * @author T480
  */
 public class Dame {
-int[][] Mat = new int[10][10];
-
 
     public static void main(String[] args) {
-        System.out.println("Hello World!xy ");
+        System.out.println("Hello World!xyz ");
     }
     
 }
